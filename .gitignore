@@ -1,0 +1,27 @@
+.agents/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local data and configuration
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# Node and build output
+node_modules/
+dist/
+build/
+*.log
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp

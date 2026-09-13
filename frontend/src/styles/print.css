@@ -1,0 +1,9 @@
+@media print {
+  body { background: white; color: black; }
+  .no-print, nav, button { display: none !important; }
+  main { max-width: none; margin: 0; padding: 0; }
+  .card { box-shadow: none; padding: 0; }
+  .invoice-detail { font-size: 11pt; }
+  .table-wrap { overflow: visible; }
+  th, td { border-color: #aaa; }
+}
